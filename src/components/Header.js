@@ -19,13 +19,11 @@ function Header({ disableNavigation }) {
             disabled={disableNavigation}
             className="flex items-center space-x-2 focus:outline-none"
           >
-            <img 
-              src="/Twemoji_1f351.svg" 
-              alt="MockDiddy Logo" 
-              className="h-8 w-8"
-            />
+            <span className="text-4xl font-extrabold bg-clip-text">
+            💼 
+            </span>
             <span className="text-4xl font-extrabold bg-white text-transparent bg-clip-text">
-              Agent Mock
+            Agent Mock
             </span>
           </button>
         </div>
