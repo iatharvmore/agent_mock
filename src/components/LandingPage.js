@@ -27,6 +27,7 @@ function LandingPage() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
+        <h1 className="text-4xl font-bold">💼</h1>
         <h1 className="text-4xl font-bold">Agent Mock</h1>
         <p className="text-lg text-gray-400">
           Enhance your interview skills with AI-powered mock interviews tailored to your needs.
@@ -50,9 +51,15 @@ function LandingPage() {
         <section>
           <h2 className="text-2xl font-semibold">About the App</h2>
           <p className="text-gray-400">
-            Agent Mock is an AI-powered platform designed to help individuals practice and refine their interview skills. 
-            Whether you're preparing for a technical interview or general HR rounds, Agent Mock provides personalized feedback 
-            to boost your confidence.
+          Agent Mock is an AI-powered platform designed to help individuals enhance their interview skills through personalized mock interview sessions. The platform provides interactive and insightful experiences tailored to the user's needs, whether they are preparing for technical interviews, HR rounds, or general job screenings.
+
+Key Features:
+AI-Powered Mock Interviews: Simulates real-world interview scenarios to help users practice and gain confidence.
+Personalized Feedback: Uses AI to provide tailored feedback based on the user's responses.
+Intuitive UI/UX: A simple and modern interface for a seamless experience.
+Animated and Responsive Design: Uses Framer Motion for animations and React components for a smooth and engaging user interface.
+Social Links & Profile: Showcases the developer’s profile with links to GitHub and LinkedIn.
+This project is aimed at bridging the gap between candidates and their dream jobs by offering a structured and interactive approach to interview preparation.
           </p>
         </section>
         <section className="flex flex-col items-center text-center">
