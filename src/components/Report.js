@@ -88,7 +88,7 @@ ${overallFeedback}`;
       <div className="max-w-4xl mx-auto">
         <div className="bg-gray-900 rounded-lg shadow-md p-8">
           <div className="flex items-center justify-center mb-8">
-            <img src="/Twemoji_1f351.svg.png" alt="MockDiddy Logo" className="h-12 w-12 mr-3" />
+          <h1 className="text-3xl font-bold text-center text-white">💼</h1>
             <h1 className="text-3xl font-bold text-center text-white">Interview Report</h1>
           </div>
 
